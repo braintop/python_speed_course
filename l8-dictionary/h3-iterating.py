@@ -6,5 +6,7 @@ grades = {
 }
 
 # Iterating through dictionary keys and values
-for subject, score in grades.items():
-    print(f"Subject: {subject}, Score: {score}")
+for x, y in grades.items():
+    print(f"Subject: {x}, Score: {y}")
+
+

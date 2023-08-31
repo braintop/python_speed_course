@@ -13,7 +13,7 @@ print("Characters from index 7 to end:", greeting[7:])
 print("Substring:", greeting[7:12])
 
 # String length
-length = len(greeting)
+length = len(greeting)# greeting.length 
 print("Length of the string:", length)
 
 # String methods
@@ -37,8 +37,8 @@ formatted_string_f = f"I am {age} years old."
 print(formatted_string_f)
 
 # String splitting and joining
-sentence = "This is a sentence to split."
-words = sentence.split()
+sentence = "This,is,a,sentence, to,split."
+words = sentence.split(",")# [This,is,a,is.....   ]
 joined_sentence = "-".join(words)
 print("Words:", words)
 print("Joined:", joined_sentence)
