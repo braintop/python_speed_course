@@ -16,6 +16,7 @@ def main():
 
     # Start the threads
     thread1.start()
+
     thread2.start()
 
     # Wait for both threads to complete

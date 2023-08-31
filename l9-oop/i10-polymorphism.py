@@ -15,7 +15,7 @@ animals = [Dog(), Cat(), Dog(), Cat()]
 
 # Downcasting to Dog and Cat and calling their specific methods
 for animal in animals:
-    if isinstance(animal, Dog):
+    if isinstance(animal, Dog):# if(animal instanceof Dog){}
         print("Dog says:", animal.speak())
     elif isinstance(animal, Cat):
         print("Cat says:", animal.speak())

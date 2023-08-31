@@ -12,6 +12,7 @@ def increment_counter():
     for _ in range(100):
         with lock:  # Acquire the lock before modifying the shared resource
             counter += 1
+            
 
 def main():
     # Create multiple threads

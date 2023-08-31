@@ -3,6 +3,9 @@ import time
 import random
 import queue  # Import the queue module
 
+# stack  lifo [s1,s2,s3 ]  == > head s3 
+# queue  fifo [q1,q2, q3]  == > q1, q2 ,,,,,qn 
+
 # Event for thread synchronization
 event = threading.Event()
 
